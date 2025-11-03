@@ -45,11 +45,6 @@ Model ini berguna untuk:
 4. **Evaluasi Model**
    - Metrics: RMSE, MAE, R² Score
    - Visualisasi prediksi vs nilai aktual  
-
-Contoh visualisasi prediksi vs aktual (placeholder):
-
-![Prediksi vs Aktual](docs/prediction_plot.png)
-
 ---
 
 ## 🛠️ Cara Menjalankan
