@@ -12,16 +12,6 @@ Model ini berguna untuk:
 - Pemahaman pola klaim biaya pasien Tuberkulosis
 
 ---
-## 📂 Data
-- **Sumber:** BPJS Kesehatan Tahun 2022  
-- **Jenis Data:** CSV
-- **Fitur Utama:**
-  - Tanggal lahir peserta
-  - Tanggal kunjungan dan pulang fasilitas kesehatan
-  - Jenis layanan dan diagnosa
-  - Fasilitas kesehatan (provider)
-  - Biaya tagih  
----
 
 ## ⚙️ Metodologi
 1. **Preprocessing**
@@ -40,30 +30,17 @@ Model ini berguna untuk:
    - Metrics: RMSE, MAE, R² Score
 ---
 
-## 🛠️ Cara Menjalankan
-```bash
-# Clone repository
-git clone https://github.com/username/repo.git
-
-# Masuk ke folder proyek
-cd repo
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Jalankan model
-python run_model.py
-```
-
 ## 🧩 Struktur Proyek
 ```
 📦 Prediksi-Biaya-Tagih-TB
-├── run_model.py           # Script utama untuk preprocessing, training, dan prediksi
+├── prediksi Biaya Tagih - oleh fasilitas kesehatan (provider)penyakit TB.ipynb           # Script utama untuk preprocessing, training, dan prediksi
 ├── data/
-│   └── bpjs_tb_2022.csv  # Data klaim pasien Tuberkulosis
+|   └── data_baru_tb_fkrtl.csv        # data baru
+|   └── data_baru_tb_kepesertaan.csv  # data baru
+|   └── tb_2021_kepesertaan.csv       # data training
+│   └── tb_fkrtl.csv                  # Data training
 ├── model/
-│   └── random_forest.pkl  # Model Random Forest yang telah dilatih (opsional)
-├── requirements.txt       # Library yang dibutuhkan
+│   └── random_forest.pkl  # Model Random Forest yang telah dilatih
 └── README.md              # Dokumentasi proyek
 ```
 
