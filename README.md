@@ -1,7 +1,6 @@
 # Prediksi Biaya Tagih Fasilitas Kesehatan (Tuberkulosis) 🏥💰
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.2.2-orange)
 
 ## 📊 Deskripsi Proyek
 Proyek ini menggunakan **Random Forest Regression** untuk memprediksi **biaya tagih oleh fasilitas kesehatan (provider)** untuk pasien dengan penyakit **Tuberkulosis**, berdasarkan data **BPJS Kesehatan Tahun 2021**.  
