@@ -40,8 +40,8 @@ Model ini berguna untuk:
 |   └── tb_2021_kepesertaan.csv       # data training
 │   └── tb_fkrtl.csv                  # Data training
 ├── model/
-│   └── random_forest.pkl  # Model Random Forest yang telah dilatih
-└── README.md              # Dokumentasi proyek
+│   └── random_forest_model.pkl       # Model Random Forest yang telah dilatih
+└── README.md                         # Dokumentasi proyek
 ```
 
 ## 📈 Hasil
