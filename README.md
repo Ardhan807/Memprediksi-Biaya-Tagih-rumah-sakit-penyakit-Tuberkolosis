@@ -38,8 +38,6 @@ Model ini berguna untuk:
 |   └── data_baru_tb_kepesertaan.csv  # data baru
 |   └── tb_2021_kepesertaan.csv       # data training
 │   └── tb_fkrtl.csv                  # Data training
-├── model/
-│   └── random_forest_model.pkl       # Model Random Forest yang telah dilatih
 └── README.md                         # Dokumentasi proyek
 ```
 
